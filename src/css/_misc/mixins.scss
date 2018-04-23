@@ -1,0 +1,43 @@
+%clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+//----------------------<<responsive>>----------------------\\
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
+@mixin desktop {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 990px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 770px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5),
+  screen and (min-resolution: 144dpi) {
+    @content;
+  }
+}
