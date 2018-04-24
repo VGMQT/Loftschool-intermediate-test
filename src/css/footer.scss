@@ -1,0 +1,20 @@
+.footer{
+  @include fira;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(#fff, .5);
+  background: $black;
+  p{
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.footer__text{
+  max-width: 520px;
+}

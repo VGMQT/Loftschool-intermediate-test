@@ -1,4 +1,7 @@
 //vars
+$black: #212121;
+$grey: #727272;
+$green: #8cc34b;
 
 //layout
 @import "_misc/normalize.scss";
@@ -11,3 +14,6 @@
 
 //styles
 @import "header.scss";
+@import "footer.scss";
+@import "section1.scss";
+@import "section2.scss";
