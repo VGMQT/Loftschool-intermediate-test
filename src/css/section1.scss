@@ -1,9 +1,9 @@
 .section1{
+  margin-bottom: 100px;
   .container {
-    width: 950px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    width: 950px;
     text-align: center;
     p{
       margin: 0;
@@ -46,8 +46,8 @@
 
 .about-image-wrapper{
   overflow: hidden;
-  margin-right: 20px;
   width: 140px;
+  margin-right: 20px;
 }
 
 .about-image{
@@ -58,9 +58,9 @@
 
 .about-title{
   @include fira(bold);
+  margin-bottom: 10px;
   font-size: 21px;
   color: $black;
-  margin-bottom: 10px;
 }
 
 .desc{

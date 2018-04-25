@@ -1,9 +1,9 @@
 .footer{
   @include fira;
-  text-align: center;
   font-size: 14px;
-  color: rgba(#fff, .5);
+  text-align: center;
   background: $black;
+  color: rgba(#fff, .5);
   p{
     margin: 0;
   }
